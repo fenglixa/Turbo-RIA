@@ -176,6 +176,9 @@ rna:
       repository: "pliant-front-master"
       tag: "v2.18.2"
     replicas: 2
+    resources:
+      requests:
+        memory: "128MB"
   pliant_image_registry:
     env:
       CLEANUP_STORAGE_THRESHOLD_GB: "7"
