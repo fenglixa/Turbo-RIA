@@ -178,7 +178,7 @@ rna:
     replicas: 2
     resources:
       requests:
-        memory: "128MB"
+        memory: "256MB"
   pliant_image_registry:
     env:
       CLEANUP_STORAGE_THRESHOLD_GB: "7"
