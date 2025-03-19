@@ -10,6 +10,9 @@ common:
       repository: "infra-mysql-master"
       tag: "v8.0.36007"
     replicas: 1
+    resources:
+      requests:
+        storage: "2Gi"
   object_storage:
     image:
       pullPolicy: "IfNotPresent"
